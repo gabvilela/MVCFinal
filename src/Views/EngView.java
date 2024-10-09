@@ -44,14 +44,12 @@ public class EngView {
     }
 
     private void proximaManutencao() {
-        engController.proximaManutencao();
+        String resultadoProximaManutencao = engController.proximaManutencao();
+        System.out.println(resultadoProximaManutencao);
     }
 
     private void historicoManutencao() {
-        engController.manutencaoHistorico();
+        String resultadoHistorico = engController.manutencaoHistorico();
+        System.out.println(resultadoHistorico);
     }
-
-
-
-
 }
